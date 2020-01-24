@@ -23,9 +23,14 @@ def piglatinize(word)
 end
  
 def piglatinize(sentence)
-    breakdown = sentence.split(" ")
-    word_transform = breakdown.map {|word| piglatinize_word(word)}
-    word_transform.join(" ")
+      @words = input.split(" ")
+    # this is an array of all the input words
+    
+    translation = words.map {|word| piglatinize(word)}
+    # calls the translator method on each word 
+    
+    translation.join(" ")
+    # joins all translated words back into a phrase
   end
 
   def piglatinize_word(word)
