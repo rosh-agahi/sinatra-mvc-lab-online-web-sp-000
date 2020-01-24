@@ -15,12 +15,12 @@ class PigLatinizer
     
     
   
-  def piglatinize(word)
+def piglatinize(word)
   # this method takes each word and translates it to piglatin
   # will find the first vowel in each word and break it apart, place the first part at the end of the word and add "ay"
   # if a word starts with a vowel, it will not break the word, only add "way" to the end of it.
 
-  end
+end
  
 def piglatinize(sentence)
     breakdown = sentence.split(" ")
