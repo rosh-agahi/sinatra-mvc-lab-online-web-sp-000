@@ -1,6 +1,6 @@
 class PigLatinizer
   
-def pig_latin_function(input)
+def piglatinize(input)
     words = input.split(" ")
     # this is an array of all the input words
     
